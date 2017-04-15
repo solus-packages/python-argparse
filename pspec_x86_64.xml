@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>python-argparse</Name>
+        <Packager>
+            <Name>Michael Bryant</Name>
+            <Email>shadow53@shadow53.com</Email>
+        </Packager>
+        <License>Python-2.0</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Python argparse package</Summary>
+        <Description xml:lang="en">The Python 2 argparse package
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-argparse</Name>
+        <Summary xml:lang="en">Python argparse package</Summary>
+        <Description xml:lang="en">The Python 2 argparse package
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse-1.4.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse-1.4.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse-1.4.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse-1.4.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/argparse.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-21</Date>
+            <Version>1.4.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Michael Bryant</Name>
+            <Email>shadow53@shadow53.com</Email>
+        </Update>
+    </History>
+</PISI>

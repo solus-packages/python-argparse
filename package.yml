@@ -1,0 +1,16 @@
+name       : python-argparse
+version    : 1.4.0
+release    : 1
+source     :
+    - https://github.com/ThomasWaldmann/argparse/archive/r140.tar.gz : c3aac17ae1678b1afa3e81b017cc767aa7867c0eb6560c8cf388393ac1130dd8
+license    : Python-2.0
+component  : programming.python
+summary    : Python argparse package
+description: |
+    The Python 2 argparse package
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install
